@@ -22,6 +22,10 @@
 		699313DA20C9491600B9CD5E /* UITableViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699313D920C9491600B9CD5E /* UITableViewControllerExtension.swift */; };
 		699313DC20C9CD1A00B9CD5E /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699313DB20C9CD1A00B9CD5E /* OrderConfirmationViewController.swift */; };
 		6995CE4621D1EAAA003E2AE3 /* LocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995CE4521D1EAAA003E2AE3 /* LocalData.swift */; };
+		B1B212F32767BBA3006461F7 /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B212EF2767BBA3006461F7 /* Screenshot03.png */; };
+		B1B212F42767BBA3006461F7 /* Screenshot04.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B212F02767BBA3006461F7 /* Screenshot04.png */; };
+		B1B212F52767BBA3006461F7 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B212F12767BBA3006461F7 /* Screenshot01.png */; };
+		B1B212F62767BBA3006461F7 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B212F22767BBA3006461F7 /* Screenshot02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		699313D920C9491600B9CD5E /* UITableViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewControllerExtension.swift; sourceTree = "<group>"; };
 		699313DB20C9CD1A00B9CD5E /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
 		6995CE4521D1EAAA003E2AE3 /* LocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalData.swift; sourceTree = "<group>"; };
+		B1B212EF2767BBA3006461F7 /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		B1B212F02767BBA3006461F7 /* Screenshot04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot04.png; sourceTree = "<group>"; };
+		B1B212F12767BBA3006461F7 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		B1B212F22767BBA3006461F7 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,24 +82,68 @@
 		6964A99520C7258C00921F08 /* Restaurant */ = {
 			isa = PBXGroup;
 			children = (
-				699313D720C942F300B9CD5E /* AddToOrderDelegate.swift */,
-				6964A99620C7258C00921F08 /* AppDelegate.swift */,
-				6964A99D20C7259300921F08 /* Assets.xcassets */,
+				B1B212ED2767B730006461F7 /* App */,
+				B1B212EC2767B5F9006461F7 /* Models */,
+				B1B212EE2767B786006461F7 /* Screenshots */,
+				B1B212EB2767B5E0006461F7 /* View */,
+				B1B212EA2767B5A7006461F7 /* ViewControllers */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		B1B212EA2767B5A7006461F7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
 				6964A9AC20C72EE000921F08 /* CategoryTableViewController.swift */,
-				6964A9A220C7259300921F08 /* Info.plist */,
-				6964A9B420C7342E00921F08 /* IntermediaryModels.swift */,
-				6964A99F20C7259300921F08 /* LaunchScreen.storyboard */,
-				6995CE4521D1EAAA003E2AE3 /* LocalData.swift */,
-				6964A99A20C7258C00921F08 /* Main.storyboard */,
 				6964A9B620C7372200921F08 /* MenuController.swift */,
-				6964A9B220C7325200921F08 /* MenuItem.swift */,
 				6964A9B020C7313700921F08 /* MenuItemDetailViewController.swift */,
 				6964A9AA20C72EB700921F08 /* MenuTableViewController.swift */,
 				699313DB20C9CD1A00B9CD5E /* OrderConfirmationViewController.swift */,
 				6964A9AE20C72EF900921F08 /* OrderTableViewController.swift */,
 				699313D920C9491600B9CD5E /* UITableViewControllerExtension.swift */,
 			);
-			path = Restaurant;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B1B212EB2767B5E0006461F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6964A99F20C7259300921F08 /* LaunchScreen.storyboard */,
+				6964A99A20C7258C00921F08 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1B212EC2767B5F9006461F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6964A9B420C7342E00921F08 /* IntermediaryModels.swift */,
+				6995CE4521D1EAAA003E2AE3 /* LocalData.swift */,
+				6964A9B220C7325200921F08 /* MenuItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1B212ED2767B730006461F7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6964A99620C7258C00921F08 /* AppDelegate.swift */,
+				6964A99D20C7259300921F08 /* Assets.xcassets */,
+				699313D720C942F300B9CD5E /* AddToOrderDelegate.swift */,
+				6964A9A220C7259300921F08 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B1B212EE2767B786006461F7 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				B1B212F12767BBA3006461F7 /* Screenshot01.png */,
+				B1B212F22767BBA3006461F7 /* Screenshot02.png */,
+				B1B212EF2767BBA3006461F7 /* Screenshot03.png */,
+				B1B212F02767BBA3006461F7 /* Screenshot04.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +173,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = "Denis Bystruev";
 				TargetAttributes = {
 					6964A99220C7258C00921F08 = {
@@ -153,8 +205,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B212F32767BBA3006461F7 /* Screenshot03.png in Resources */,
+				B1B212F52767BBA3006461F7 /* Screenshot01.png in Resources */,
 				6964A9A120C7259300921F08 /* LaunchScreen.storyboard in Resources */,
+				B1B212F62767BBA3006461F7 /* Screenshot02.png in Resources */,
 				6964A99E20C7259300921F08 /* Assets.xcassets in Resources */,
+				B1B212F42767BBA3006461F7 /* Screenshot04.png in Resources */,
 				6964A99C20C7258C00921F08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +285,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -254,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +346,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -308,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -323,8 +381,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2020.07.07;
-				DEVELOPMENT_TEAM = 8J39KF9DMS;
-				INFOPLIST_FILE = Restaurant/Info.plist;
+				DEVELOPMENT_TEAM = 9WKHJD3DKV;
+				INFOPLIST_FILE = Restaurant/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,8 +401,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2020.07.07;
-				DEVELOPMENT_TEAM = 8J39KF9DMS;
-				INFOPLIST_FILE = Restaurant/Info.plist;
+				DEVELOPMENT_TEAM = 9WKHJD3DKV;
+				INFOPLIST_FILE = Restaurant/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
